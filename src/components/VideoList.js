@@ -1,7 +1,9 @@
 import React from "react";
 import VideoItem from "./VideoItem";
 
-const VideoList = () => {
+const VideoList = ({ videos }) => {
+  console.log(videos);
+
   return (
     <div>
       <VideoItem />
